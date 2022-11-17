@@ -1,0 +1,136 @@
+header {
+    justify-content: space-around;
+    margin: 10px;
+    min-height: 0;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 89vh;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 25%;
+    min-height: 100%;
+    background-color: #000000;
+    border-right: 2px double gray;
+}
+
+.up {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+    border-bottom: 1px double gray;
+}
+
+.up .name {
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.conta {
+    margin-left: 50px;
+    padding: 0 20px;
+    border: 1px solid #aaaaaa;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.conta div,
+.saldo div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.conta strong {
+    font-size: 20px;
+}
+
+.conta h2,
+.saldo h2 {
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.down,
+.saldo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.saldo {
+    margin-bottom: 30px;
+    height: fit-content;
+}
+
+.saldo div {
+    justify-content: flex-end;
+}
+
+.saldo div p {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.btn-action {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    padding-left: 30px;
+    background-color: #000000;
+}
+
+
+
+.btn-action:hover,
+.btn-action:active {
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-action:active {
+    background-color: #aaaaaa51;
+}
+
+#begin::before {
+    content: url('../asset/icon/casa-white.svg');
+    margin-right: 10px;
+    width: fit-content;
+}
+
+#begin::before {
+    content: url('../asset/icon/casa-black.svg')
+}
+
+#extract::before {
+    content: url('../asset/icon/extrato-white.svg');
+    margin-right: 10px;
+    width: fit-content;
+}
+
+
+#trasfer::before {
+    content: url('../asset/icon/transfer-white.svg');
+    margin-right: 10px;
+    width: fit-content;
+}
