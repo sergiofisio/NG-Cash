@@ -1,5 +1,5 @@
 {
-  "name": "site-ng.cash",
+  "name": "ng-cash",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sergiofisio/site-NG.Cash.git"
+    "url": "git+https://github.com/sergiofisio/NG-Cash.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sergiofisio/site-NG.Cash/issues"
+    "url": "https://github.com/sergiofisio/NG-Cash/issues"
   },
-  "homepage": "https://github.com/sergiofisio/site-NG.Cash#readme"
+  "homepage": "https://github.com/sergiofisio/NG-Cash#readme"
 }
