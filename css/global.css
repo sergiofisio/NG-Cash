@@ -5,9 +5,11 @@
     font-family: 'IBM Plex Mono', sans-serif;
     text-decoration: none;
     color: #FFFFFF;
+    cursor: default;
 }
 
-button {
+button,
+input {
     cursor: pointer;
 }
 
@@ -69,7 +71,8 @@ header img {
 .register,
 .btn-header,
 .btn-login,
-.clean {
+.clean,
+.btn-transfer {
     background-color: #000000;
     color: #FFFFFF;
     border: 2PX solid #FFFFFF;
@@ -85,7 +88,8 @@ header img {
 
 .register:hover,
 .btn-header:hover,
-.btn-login:hover {
+.btn-login:hover,
+.btn-transfer:hover {
     background-color: #FFFFFF;
     color: #000000;
     border: 2px solid #000000;

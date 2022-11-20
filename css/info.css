@@ -12,6 +12,7 @@
 }
 
 .container-info {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,19 +23,67 @@
     border-radius: 30px;
 }
 
-.extrato {
+.extrato,
+.transfer {
+    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-}
-
-.extrato h1 {
-    margin: 10px 0;
+    height: 80vh;
 }
 
 .conteudo-extrato {
+    margin-top: 50px;
+    position: relative;
+    width: 90%;
+    height: 50vh;
+    overflow-y: auto;
+}
+
+.extrato h1,
+.transfer h1 {
+    position: relative;
+    margin-top: 60px;
+    color: #000000;
+}
+
+.transfer h3 {
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.conteudo-transfer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 90%;
     height: 60vh;
-    overflow-y: scroll;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input {
+    width: 100%;
+}
+
+form p {
+    color: #000000;
+    margin: 5px 0;
+}
+
+.input-checkbox {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#checkbox {
+    width: 20px;
+    margin: 0 20px 0 0;
 }
